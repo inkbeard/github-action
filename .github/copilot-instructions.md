@@ -33,7 +33,7 @@ it is generated from.
 | `eslint.config.mjs`    | ESLint Configuration                                     |
 | `jest.config.js`       | Jest Configuration                                       |
 | `LICENSE`              | License File                                             |
-| `package.json`         | NPM Package Configuration                                |
+| `package.json`         | PNPM Package Configuration                               |
 | `README.md`            | Project Documentation                                    |
 | `rollup.config.ts`     | Rollup Bundler Configuration                             |
 | `tsconfig.base.json`   | Base TypeScript Configuration                            |
@@ -45,7 +45,7 @@ it is generated from.
 Install dependencies by running:
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Testing
@@ -53,7 +53,7 @@ npm install
 Ensure all unit tests pass by running:
 
 ```bash
-npm run test
+pnpm run test
 ```
 
 Unit tests should exist in the `__tests__` directory. They are powered by
@@ -65,7 +65,7 @@ Any time files in the `src` directory are changed, you should run the following
 command to bundle the TypeScript code into JavaScript:
 
 ```bash
-npm run bundle
+pnpm run bundle
 ```
 
 ## General Coding Guidelines
@@ -82,7 +82,7 @@ npm run bundle
 - Keep functions focused and manageable
 - Use descriptive variable and function names that clearly convey their purpose
 - Use JSDoc comments to document functions, classes, and complex logic
-- After doing any refactoring, ensure to run `npm run test` to ensure that all
+- After doing any refactoring, ensure to run `pnpm run test` to ensure that all
   tests still pass and coverage requirements are met
 - When suggesting code changes, always opt for the most maintainable approach.
   Try your best to keep the code clean and follow "Don't Repeat Yourself" (DRY)
