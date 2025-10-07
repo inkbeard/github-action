@@ -31,7 +31,7 @@ it is generated from.
 | `action.yml`           | GitHub Action Metadata                                   |
 | `CODEOWNERS`           | Code Owners File                                         |
 | `eslint.config.mjs`    | ESLint Configuration                                     |
-| `jest.config.js`       | Jest Configuration                                       |
+| `vitest.config.ts`     | Vitest Configuration                                     |
 | `LICENSE`              | License File                                             |
 | `package.json`         | PNPM Package Configuration                               |
 | `README.md`            | Project Documentation                                    |
@@ -57,7 +57,7 @@ pnpm run test
 ```
 
 Unit tests should exist in the `__tests__` directory. They are powered by
-`jest`. Fixtures should be placed in the `__fixtures__` directory.
+`vitest`. Fixtures should be placed in the `__fixtures__` directory.
 
 ## Bundling
 
